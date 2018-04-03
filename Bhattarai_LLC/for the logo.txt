@@ -1,0 +1,1 @@
+font: trajan bold sizw 35

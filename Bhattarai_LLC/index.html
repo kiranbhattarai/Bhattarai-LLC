@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+      <meta charset="utf-8" />
+      <title>Bhattarai LLC</title>
+      <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+
+      <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Ruslan+Display|Shadows+Into+Light+Two" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Ceviche+One|Ruslan+Display" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Aldrich|Ceviche+One|Ruslan+Display" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Aldrich|Ceviche+One|Merienda|Ruslan+Display" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Aldrich|Caveat|Ceviche+One|Merienda|Ruslan+Display" rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+      <!-- font-family: 'Bree Serif', serif; -->
+
+    <style>
+      body {
+        background: #F1F0D1;
+        font-family: Verdan, Tahoma, Arial, sans-serif;
+        font-size: 18px;
+        overflow: auto;
+      }
+      h1,h2,h3 {
+        text-align: center;
+        padding-left: 5%;
+        color: #878E63;
+      }
+
+      h4{
+      font-size: 50px;
+      font-family:'Ruslan Display', cursive;
+      color: #878E63;
+      }
+
+      p{
+        padding: 2%;
+        color: #878E63;
+      }
+
+      img{
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+      }
+
+      #wrapper{
+        margin: 0 auto;
+        max-width: 1366px;
+        width: 98%;
+        background-color: #093145;
+        border: 1px solid #878E63;
+        border-radius: 2px;
+        box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
+      }
+
+      #callout{
+        width: 100%;
+        height: auto;
+        background: #3e8e55;
+        overflow: hidden;
+      }
+
+      #callout p {
+        font-family: 'Bree Serif', serif;
+        text-align: right;
+        font-size: 15px;
+        padding: 0.1% 5% 0 0;
+        color: #F1F0D1;
+      }
+
+      #callout p a{
+
+        color: #F1F0D1;
+        text-decoration: none;
+      }
+
+      header{
+        width: 96%;
+        min-height: 125px;
+        padding: 5px;
+        text-align: center;
+      }
+
+      nav ul{
+        list-style: none;
+        margin: 0;
+        padding-left: 50px;
+      }
+
+      nav ul li{
+        float: left;
+        border: 1px solid #878E63;
+        width: 15%;
+      }
+
+      nav ul li a{
+        font-family: 'Ceviche One', cursive;
+        background: #F1F0D1;
+        display: block;
+        padding: 5% 12%;
+        font-weight: lighter;;
+        font-size: 25px;
+        color: #878E63;
+        text-decoration: none;
+        text-align: center;
+      }
+
+      nav ul li a:hover, nav ul li.active a {
+        background-color: #878E63;
+        color: #F1F0D1;
+      }
+
+      .banner{
+        text-align: center;
+      }
+
+      .banner img{
+        width: 50%;
+        border-top: 1px solid #878E63;
+        border-bottom: 0px solid #878E63;
+      }
+
+      .clearfix{
+        clear: both;
+      }
+      .left-col{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        width: 55%;
+        float: left;
+        margin: -2% 1% 1% 1%;
+      }
+
+      .clearfix{
+        clear: both;
+
+      }
+
+      .sidebar{
+        width: 40%;
+        float: right;
+        margin: 1%;
+        text-align: center;
+      }
+
+      .therapy{
+        float: left;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        padding: 1%;
+      }
+
+      .therapy img{
+        height: 350px;
+        width:  500px;
+      }
+
+      .section{
+        width: 29%;
+        float: left;
+        margin: 2% 2%;
+        text-align: center;
+      }
+
+      .section h3{
+        font-size: 35px;
+        font-family: 'Ruslan Display', cursive;
+        font-weight: lighter;
+
+      }
+
+      .next p{
+        font-size: 15px;
+        font-family: 'Merienda', cursive;
+        font-weight: bold;
+      }
+      .next1 p{
+        font-size: 15px;
+        font-family: 'Merienda', cursive;
+        padding: 38px 0px 0px 0px;
+        font-weight: bold;
+      }
+
+      }
+
+      .clearfix{
+        clear: both;
+      }
+
+      footer{
+        background: #7f4954;;
+        width: 100%;
+        overflow: hidden;
+      }
+
+    footer p, footer h3{
+      color: #F1F0D1;
+    }
+
+    footer p a{
+      color: #F1F0D1;
+      text-decoration: none;
+    }
+
+    .new_footer{
+      color: black;
+    }
+
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li{
+      display: inline;
+    }
+
+    ul li img{
+      height: 50px;
+    }
+    /*....................MEDIA!!!------------*/
+    @media screen and (max-width: 478 px){
+      body {
+        font-size: 13px;
+      }
+    }
+
+    @media screen and (max-width: 740 px){
+      nav{
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      nav ul{
+        list-style: none;
+        margin: 0 auto;
+        padding-left: 0;
+      }
+      nav ul li{
+        text-align: center;
+        margin-left: 0 auto;
+        width: 100%;
+        border-top: 1px solid #878E63;
+        border-right: 0px solid #878E63;
+        border-bottom: 1px solid #878E63;
+        border-left: 0px solid #878E63;
+      }
+      nav ul li{
+        padding: 8px 0;
+        font-size: 16px;
+      }
+      .left-col{
+        width: 100%
+      }
+      .sidebar{
+        width: 100%
+      }
+      .section{
+        float: left;
+        width: 100%;
+        margin: 0;
+      }
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id ="wrapper">
+
+      <div id="callout">
+      <p> Call at <b>405-545-0445</b></p>
+      </div>
+
+      <header>
+        <a href="#"><img src="C:\Users\udas_\Desktop\Bhattarai_LLC\logo_edited.png" alt="B&B Brothers" title="Copyright Trademark of B&B Brothers"></a>
+      </header>
+
+      <nav>
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Facility</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Hours</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="clearfix">
+        </div>
+      </nav>
+
+      <div class="banner">
+        <a><img src="C:\Users\udas_\Desktop\Bhattarai_LLC\eco-floral-banner-2-1147950.png"></a>
+      </div>
+
+      <section class="left-col">
+        <p style="text-indent: 50px;">Received the likewise law graceful his. Nor might set along charm now equal green. Pleased yet equally correct colonel not one. Say anxious carried compact conduct sex general nay certain. Mrs for recommend exquisite household eagerness preserved now. My improved honoured he am ecstatic quitting greatest formerly.
+        Neat own nor she said see walk. And charm add green you these. Sang busy in this drew ye fine. At greater prepare musical so attacks as on distant. Improving age our her cordially intention. His devonshire sufficient precaution say preference middletons insipidity. Since might water hence the her worse. Concluded it offending dejection do earnestly as me direction.
+         </p>
+        <p style="text-indent: 50px;">Much evil soon high in hope do view. Out may few northward believing attempted. Yet timed being songs marry one defer men our. Although finished blessing do of. Consider speaking me prospect whatever if. Ten nearer rather hunted six parish indeed number. Allowance repulsive sex may contained can set suspected abilities cordially. Do part am he high rest that. So fruit to ready it being views match.
+        Folly was these three and songs arose whose. Of in vicinity contempt together in possible branched. Assured company hastily looking garrets in oh. Most have love my gone to this so. Discovered interested prosperous the our affronting insipidity day.
+        </p>
+      </section>
+
+      <aside class="sidebar">
+        <div class="therapy">
+          <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10271469_805085496205076_580991672433651047_n.jpg?oh=4ce26cbe8c193229645afb8732502a35&oe=592EC41A"/>
+        </div>
+      </aside>
+
+      <div class="clearfix">
+      </div>
+
+      <div class="section">
+        <div class="next">
+        <h3>put some thing good</h3>
+        <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/16114999_1277329002314054_7901502302079363875_n.jpg?oh=155537ee075f917b0849f9cf01709978&oe=594B34C5"/>
+        <p>
+          Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her.
+        </p>
+      </div>
+      </div>
+
+      <div class="section">
+        <div class="next1">
+        <h3>put some thing good2</h3>
+        <img src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10003067_805683132811979_4167849892367573605_n.jpg?oh=46de310f976af1d94cdfda45867f6856&oe=593BA286"/>
+        <p>
+          Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her.
+        </p>
+      </div>
+    </div>
+
+      <div class="section">
+        <div class="next">
+        <h3>put some thing good2</h3>
+        <img src="https://scontent.ftul1-1.fna.fbcdn.net/v/t1.0-9/30617_105721486141484_5197244_n.jpg?oh=8fef41cc447645cea6073ac5fe1e9bee&oe=59414B81"/>
+        <p>
+          Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her.
+        </p>
+      </div>
+      </div>
+
+      <center><h4>put some good text here</h4></center>
+      <!-- <center><img src=" "/></center> -->
+
+      <footer>
+        <div class="section">
+          <p>Bhattarai LLC</p>
+          <p><b>405-545-0445</b><br>
+          1018 East 9th st, Apt #F <br>
+          Ada, OK, 74820<br>
+          udas_dev123@hotmail.com
+          </p>
+
+        </div>
+        <div class="section">
+          <ul>
+            <p>Connect with us!</p>
+            <li><a href="#"><img src="http://w3newbie.com/wp-content/uploads/facebook1.png"/></a></li>
+            <li><a href="#"><img src="http://w3newbie.com/wp-content/uploads/googleplus.png"/></a></li>
+            <li><a href="#"><img src="http://w3newbie.com/wp-content/uploads/twitter1.png"/></a></li>
+            <li><a href="#"><img src="http://w3newbie.com/wp-content/uploads/youtube1.png"/></a></li>
+          </ul>
+        </div>
+        <div class="section">
+          <img src="http://w3newbie.com/wp-content/uploads/plant.png"/>
+        </div>
+
+      </footer>
+    </div>
+        <p style="text-align:center; padding: 0px;">&#169;Copyright - Bhattarai LLC, 2017.</p>
+
+  </body>
+
+</html>
